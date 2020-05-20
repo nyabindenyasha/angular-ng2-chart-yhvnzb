@@ -1,0 +1,26 @@
+<h1>
+  <b>Ng Chart</b>
+  </h1>
+<div class="chart">
+<h1> Type : bar</h1> 
+    <canvas baseChart width="400" height="400"
+                [data]="lineChartData"
+                [labels]="lineChartLabels"
+                [legend]="false"
+                chartType="bar"
+                [options]="chartOption"
+                ></canvas>
+  
+</div>
+<div class="chart">
+<h1> Type : Horizontal Bar</h1> 
+
+    <canvas baseChart width="400" height="400"
+                [data]="lineChartData"
+                [labels]="lineChartLabels"
+                [legend]="false"
+                chartType="horizontalBar"
+                [options]="horizontalChartOption"
+                ></canvas>
+  
+</div>
